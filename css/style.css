@@ -1,0 +1,39 @@
+@font-face{
+    src: url(/fontstyle/FiraSans-MediumItalic.ttf);
+    font-family: 'Fira Sans';
+}
+
+*{
+box-sizing: border-box;
+}
+
+div{
+    display: block;
+}
+body{
+background: #E5E5E5;
+font-family: 'Fira Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.5;
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+text-align: left;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem !important;
+    width: 100%;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5.5rem !important;
+    width: 100%;
+}
+.h3{
+    margin: 15px;
+}
